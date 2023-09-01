@@ -1,0 +1,167 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav 
+{
+    width: 100%;
+    height: 56px;
+    
+    background: white;
+}
+nav .inner 
+{
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .inner .left 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .inner .menu
+{
+    width: 40px;
+    height: 40px;
+}
+nav .inner .menu button
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+nav .inner .menu button svg 
+{
+    width: 24px;
+    height: 24px;
+}
+
+
+nav .inner .logo
+{
+    padding: 18px 14px 18px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .inner .logo a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .inner .logo a svg 
+{
+    height: 20px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+nav .inner .center 
+{
+    display: flex;
+    min-width: 0;
+    flex: 0 1 732px;
+    flex-direction: row;
+    align-items: center;
+}
+nav .inner .center .searchbox 
+{
+    margin: 0 0 0 40px;
+    padding: 0 4px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+}
+nav .inner .center .searchbox form 
+{
+    height: 40px;
+    position: relative;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+}
+nav .inner .center .searchbox form .container
+{
+    position: relative;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 40px 0 0 40px;
+    box-shadow: inset 0 1px 2px #eee;
+    caret-color: #0f0f0f;
+    color: hsl(0, 0%, 6.7%);
+    padding: 0 4px 0 16px;
+    margin-left: 32px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+}
+nav .inner .center .searchbox form .container input
+{
+    outline: none;
+    color: hsl(0, 0%, 6.7%);
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 100%;
+    text-align: inherit;
+}
+nav .inner .center .searchbox button
+{
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 64px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav .inner .right 
+{
+    min-width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
